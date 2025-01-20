@@ -1,0 +1,23 @@
+name: codemagic_sample
+description: Codemagic sample
+publish_to: "none"
+version: 0.0.1+0001
+
+environment:
+  sdk: ">=3.5.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  firebase_app_check: ^0.3.2
+  firebase_core: ^3.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true

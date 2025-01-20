@@ -1,0 +1,66 @@
+{
+    "eslint.format.enable": true,
+    "redhat.telemetry.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "stylelint.snippet": [
+        "scss"
+    ],
+    "stylelint.validate": [
+        "scss"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "search.exclude": {
+        "**/.fvm": true,
+        ".packages": true,
+        "**.packages": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/ios": true
+    },
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "github"
+    ]
+}
