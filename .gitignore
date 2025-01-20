@@ -52,5 +52,4 @@ firebase.json
 ios/Runner/GoogleService-Info.plist
 ios/Runner/Assets.xcassets
 lib/firebase_options.dart
-ios/Runner.xcodeproj
 ios/Runner.xcworkspace
